@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_compose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4aeed"
+    tools:context="constantrebel.com.athar.myapplication.MessageCompose">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:hint="Number"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:background="#84868b"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Message"
+        android:ems="10"
+        android:background="#84868b"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/editText2" />
+
+    <Button
+        android:text="Send"
+        android:textSize="38dp"
+        android:textColor="@color/colorPrimary"
+        android:background="#c3c5ca"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/button" />
+
+    <TextView
+        android:text="Compose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5"
+        android:textColor="#ab3052"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="false" />
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4aeed"
+    tools:context="constantrebel.com.athar.myapplication.MessageActivity">
+
+
+    <Button
+        android:text="Conversations"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="24dp"
+        android:background="#c3c5ca"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/button1"
+        android:onClick="btnClickAct2"/>
+
+    <Button
+        android:text="Compose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:layout_marginTop="250dp"
+        android:background="#c3c5ca"
+        android:textColor="@color/colorPrimary"
+        android:onClick="btnClickAct1"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Message"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#ab3052"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView2" />
+
+
+</RelativeLayout>

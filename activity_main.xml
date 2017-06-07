@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#a4aeed"
+    tools:context="constantrebel.com.athar.myapplication.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:text="Neo"
+        android:textColor="#ab3052"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Call"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:onClick="btnClickAct1"
+        android:background="#c3c5ca" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:text="Message"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:onClick="btnClickAct2"
+        android:background="#c3c5ca"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        android:text="Contacts"
+        android:background="#c3c5ca"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:onClick="btnClickAct3"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>
